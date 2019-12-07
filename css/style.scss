@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 40px 0px;
+    .col-lg-10{
+        .dropdown{
+            position: relative;
+            display: inline-block;
+            font-size: 20px;
+            margin: 5px 20px;
+            &:hover{
+                .drop-content{
+                    visibility: visible;
+                    top: 180%;
+                    transition:all .4s; 
+                    a{
+                        outline: none;
+
+                    } 
+                    h6{
+                        text-align: left;
+                        color: blue;
+                    }  
+                }
+                .baby{
+                    visibility: visible;
+                    top: 180%;
+                    transition:all .4s; 
+                    a{
+                        outline: none;
+
+                    } 
+                    h6{
+                        text-align: left;
+                        color: blue;
+                    } 
+                }
+                .dropbtn{
+                    text-decoration: none;
+                    color: gray;
+                }
+            }
+            .drop-content{
+                padding: 20px;
+                position: absolute;
+                width: 500px;
+                background-color: gainsboro;
+                top: 200%;
+                left: -20%;
+                visibility: hidden;
+                a{
+                    display: block;
+                    text-align: center;
+                    color:black;
+                    text-decoration: none;
+                    text-align: left;
+
+                }
+            }
+            .baby{
+                padding: 20px;
+                position: absolute;
+                width: 200px;
+                background-color:gainsboro;
+                top: 180%;
+                left: -20%;
+                
+                visibility: hidden;
+                a{
+                    display: block;
+                    text-align: center;
+                    color:black;
+                    text-decoration: none;
+                    text-align: left;
+                }
+
+            }
+            .dropbtn{
+                color:black;
+            }
+        }
+    }
+}
